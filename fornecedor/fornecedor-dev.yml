@@ -1,0 +1,9 @@
+#mysql
+spring:
+  datasource:
+    password: sc_password
+    username: sc_user
+    url: jdbc:mysql://localhost:3306/sc_fornecedor
+  jpa:
+    hibernate:
+      ddl-auto: update
